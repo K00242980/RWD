@@ -1,0 +1,169 @@
+@media screen and (min-width: 794px){
+body {
+	font-family:Times,sans-serif; 
+	background-color:#e6ffee;
+	
+}	
+}
+
+.ft1{
+  max-width: 120%;
+  max-height:120%;
+}
+#logo {
+	background-image:url(Census.png); 
+	background-size:cover;  
+	margin: 0px;
+	padding: .2em 0.5em;
+	height: 15em;
+}
+
+
+	
+#logo img{
+	float: left; 
+	height:210px;
+	width: 210px; 
+	border: 5px ridge; 
+	margin: 1%; 
+	padding: 5px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 7%;
+  padding: 0px;
+  overflow: hidden;
+  background-color:#787878;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111111;
+}
+
+* {
+  box-sizing: border-box;
+}
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  padding-right: 60px;
+  margin: 1%;
+}
+#Ad1{
+	text-align: right;
+	padding:2px;
+	
+}
+#Ad2{
+	text-align: right;
+	padding:2px;
+	
+}
+#ad1{
+	float:right;
+	margin:1%;
+	height: 210px;
+	width: 210px;
+	text-align: right;
+}
+
+#ad2{
+	
+	float:right;
+	margin:1%;
+	height: 180px;
+	width: 200px;
+	text-align: right;
+}
+#container {
+    text-align: left;
+	width: 80%;
+	margin: 0px auto;
+	background-color: #F5F5F5;
+	/*padding: 10px;*/
+	box-shadow: 10px 0px 5px #888888; /* box-shadow: [horizontal offset] [vertical offset] [blur radius] [optional spread radius] [color]; */
+}
+
+#f1{
+	border:3px ridge;
+	float: left;
+	height:145px;
+	width: 145px;
+}
+#f2{
+	border:3px ridge;
+	float: right;
+	height:180px;
+	width: 180px;
+}
+form {
+  border: 4px solid #f1f1f1;
+}
+
+.container {
+  padding: 10px;
+  background-color: #f1f1f1;
+}
+
+input[type=text], input[type=submit] {
+  width: 20%;
+  padding: 10px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input[type=checkbox] {
+  margin-top: 16px;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
+}
+
+
+
+footer {
+	background-color:#acd676; 
+	color: white;
+	font-size:l;
+	margin: 0px;
+	padding: .2em 0.5em;
+	height: 18em;
+	font-family: Comic Sans MS,sans-serif; 
+	text-align:center;
+}
+
+
+
+
+ 
+
+
+
+
+
+
+
+	

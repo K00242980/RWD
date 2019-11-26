@@ -1,0 +1,122 @@
+@media screen and (min-width: 794px){
+body {
+	font-family:Times,sans-serif; 
+	background-color:#e6ffee;
+	
+}	
+}
+
+#logo {
+	background-image:url(Census.png); 
+	background-size:cover;  
+	margin: 0px;
+	padding: .2em 0.5em;
+	height: 15em;
+}
+
+.ft1{
+  max-width: 120%;
+  max-height:120%;
+}
+	
+#logo img{
+	float: left; 
+	height:210px;
+	width: 210px; 
+	border: 5px ridge; 
+	margin: 1%; 
+	padding: 5px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 7%;
+  padding: 0px;
+  overflow: hidden;
+  background-color:#787878;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111111;
+}
+
+* {
+  box-sizing: border-box;
+}
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  padding-right: 85px;
+  margin: 1%;
+}
+
+#Ad2{
+	text-align: right;
+	padding:2px;
+	
+}
+#ad2{
+	
+	float:right;
+	margin:1%;
+	height:200px;
+	width: 200px;
+	text-align: right;
+}
+#container {
+    text-align: left;
+	width: 80%;
+	margin: 0px auto;
+	background-color: #F5F5F5;
+	/*padding: 10px;*/
+	box-shadow: 10px 0px 5px #888888; /* box-shadow: [horizontal offset] [vertical offset] [blur radius] [optional spread radius] [color]; */
+}
+
+#f1{
+	border:3px ridge;
+	float: left;
+	height:200px;
+	width: 200px;
+}
+
+.container {
+  padding: 10px;
+  background-color: #f1f1f1;
+}
+
+footer {
+	background-color:#acd676; 
+	color: white;
+	font-size:l;
+	margin: 0px;
+	padding: .2em 0.5em;
+	height: 18em;
+	font-family: Comic Sans MS,sans-serif; 
+	text-align:center;
+}
+
+
+
+
+ 
+
+
+
+
+
+
+
+	
