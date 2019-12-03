@@ -1,10 +1,10 @@
-@media screen and (min-width: 794px){
+@media screen and (min-width: 500px){
 body {
 	font-family:Times,sans-serif; 
 	background-color:#e6ffee;
 	
 }	
-}
+
 
 #logo {
 	background-image:url(Census.png); 
@@ -116,7 +116,8 @@ form {
 }
 
 .container {
-  padding: 10px;
+
+  padding: 2px;
   background-color: #f1f1f1;
 }
 
@@ -161,8 +162,11 @@ footer {
 	font-family: Comic Sans MS,sans-serif; 
 	text-align:center;
 }
+* {
+	box-sizing: border-box
+	}
 
-
+}
 
 
  

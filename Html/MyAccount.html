@@ -35,30 +35,50 @@
 	</ul>
 	</div>	
 	</header>
-
-<form action="action_page.php">
   <div class="container">
-    <h1>Manage My Account</h1>
-    <p>Welcome Back ... </p>
+    <form id="myForm" action="#" method="post" onsubmit="return validate()">
+     <h1>Manage My Account</h1>
+    <p> Welcome Back ... </p>
 	<h3>Update My Password</h3>
-	<p><label for="psw"><b> Please Enter Your Current Password:</b></label></p>
-    <input type="password" placeholder="Current Password" name="psw" required>
-	
-	<p><label for="psw"><b> Please Enter Your New Password:</b></label></p>
-    <input type="password" placeholder="New Password" name="psw" required>
-    <p><label for="psw"><b> Please Confirm Your New Password:</b></label></p>
-    <input type="password" placeholder="Confirm New Password" name="psw" required>
-    <hr>
-    <button type="submit" class="registerbtn">Update Password</button>
-  </div>
   
+	   <p><label for="txtName"></label>
+	   <input type="text" id="txtName" name="txtName" placeholder="Enter Current Password" /></p>
+	   
+	   <p><label for="txtName"></label>
+	   <input type="text" id="txtName" name="txtName" placeholder="Enter New Password" /></p>
+		
+	    <p><label for="txtName"></label>
+		<input type="text" id="txtName" name="txtName" placeholder="Confirm New Password" /></p>
+    <hr>
+        <button type="submit" class="registerbtn">Update Password</button>
+
+  </div>
 </form>
+<script type="text/javascript">
+function validate()
+{	//JavaScript gets access to to the HTML element with the id txtName
+	//and calls it name
+	var name = document.getElementById("txtName").value;
+
+	//if the length of the string value is 0,
+	//it means the user has entered no value:
+	if (name.length == 0)
+	{	alert("Please enter Password");
+		return false;
+	}
+	else
+	{	alert("Thank you, " + name);
+		//note the alert window is displaying some text as well as using the name
+		//that has been entered in the form
+	}
+}
+</script>
   
    
 		<footer>
 		<p> © GrassRootsGenealogy Limited 2019. All Rights Reserved.</p>
 		<a href="mailto:Genealogy@GrassRootsGenealogy.ie"><p>Email:Genealogy@GrassRootsGenealogy.ie</a></p>
-		<p> You Can Find Us On<img class="ft1" src="Footer1.png" alt="footer1" id="footer1"></a></a></p>
+		<p> You Can Find Us On<img class="ft1" src="Footer1.png" alt="footer1" id="footer1"></a></p>
 		
 		
 		

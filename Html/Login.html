@@ -35,19 +35,45 @@
 	</ul>
 	</div>	
 	</header>
-<form>
+
   <div class="container">
     <h1>Login </h1>
     <p>Please fill in your details to login to your account.</p>
     <hr>
+    <form id="myForm" action="#" method="post" onsubmit="return validate()">
 	
-    <label for="email"><b> Please Enter Your Email:</b></label>
-    <input type="text" placeholder="Enter Email" name="email" required>
+			<p><label for="txtEmail"><b>Please Enter Your Email:</b></label>		
+			<input type="text" id="txtEmail" placeholder="Enter Email" name="txtEmail" /></p>
+			
+			<label for="psw"><b> Please Enter Your Password:</b></label>
+			<input type="password" placeholder="Enter Password" name="psw">
+			<button type="submit" class="registerbtn"><a id="link" href="MyAccount.html">Login</button></a>
 
-    <label for="psw"><b> Please Enter Your Password:</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" required>
-    <hr>
-    <button type="submit" class="registerbtn"><a id="link" href="MyAccount.html">Login</button></a>
+	</form>
+<script type="text/javascript">
+function validate()
+{	//JavaScript gets access to to the HTML element with the id txtEmail
+	//and calls it email
+	var email = document.getElementById("txtEmail").value;
+	//still check user entered a value
+	if (email.length == 0)
+	{	alert("Please Enter An Email Address");
+		return false;
+	}
+	//if the index position of the @  or . characters
+	//is -1 (any value bigger than this, including 0,
+	//means the character is present)
+	else if (email.indexOf("@") == -1 || email.indexOf(".") == -1)
+	{	alert("Please Enter a Valid Email Address");
+		return false;
+	}
+	//if we get here, all went well
+	else
+	{	alert("Thank you, "+ email);
+	}
+}
+</script>
+  
   </div>
 
   <div class="container signin">

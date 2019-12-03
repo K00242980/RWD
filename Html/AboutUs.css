@@ -1,10 +1,10 @@
-@media screen and (min-width: 794px){
+@media screen and (min-width: 500px){
 body {
 	font-family:Times,sans-serif; 
 	background-color:#e6ffee;
 	
 }	
-}
+
 
 #logo {
 	background-image:url(Census.png); 
@@ -94,11 +94,13 @@ footer {
 	margin: 0px;
 	padding: .2em 0.5em;
 	height: 18em;
+	max-width: 99%;
+    max-height: 99%;
 	font-family: Comic Sans MS,sans-serif; 
 	text-align:center;
 }
 
-
+}
 
 
  

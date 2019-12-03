@@ -4,7 +4,7 @@ body {
 	background-color:#e6ffee;
 	
 }	
-}
+
 
 .ft1{
   max-width: 120%;
@@ -150,11 +150,13 @@ footer {
 	font-size:l;
 	margin: 0px;
 	padding: .2em 0.5em;
+	max-width: 99%;
+    max-height: 99%;
 	height: 18em;
 	font-family: Comic Sans MS,sans-serif; 
 	text-align:center;
 }
-
+}
 
 
 
